@@ -5,4 +5,4 @@
 * `$ yarn` 
 * `$ yarn storybook`
 * Browse http://localhost:9009
-* Peek around in the repo, especially `./src/stories`
+* Peek around the repo, especially `./src/stories`
