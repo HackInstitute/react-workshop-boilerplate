@@ -1,7 +1,6 @@
-import React from 'react';
-import {storiesOf} from '@storybook/react';
+// fix async/await in storybook - please ignore
+window.regeneratorRuntime = require('babel-runtime/regenerator')
 
-storiesOf('Introduction', module)
-  .add('The story..', function() {
-    return <div>..begins with a HELLO, of course! : )</div>
-  })
+// Your story modules
+require('./hello')
+// require('...')
